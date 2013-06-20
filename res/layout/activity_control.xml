@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:id="@+id/Btn_ESC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/Control_ESC" />
+    
+    <Button 
+        android:id="@+id/Btn_OpenKeyboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Control_Keyboard_Open"
+        android:layout_alignParentRight="true"/>
+    
+    <Button 
+        android:id="@+id/Btn_Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Control_Up"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dip"/>
+    <Button 
+        android:id="@+id/Btn_Enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Btn_Up"
+        android:text="@string/Control_Enter"
+        android:layout_marginTop="25dip"
+        android:layout_centerHorizontal="true"/>
+    
+    <Button 
+        android:id="@+id/Btn_Down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Control_Down"
+        android:layout_below="@id/Btn_Enter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dip"
+        />
+        
+    <Button
+        android:id="@+id/Btn_Right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Btn_Down"
+        android:layout_alignParentRight="true"
+        android:text="@string/Control_Right"
+        />
+
+    <Button
+        android:id="@+id/Btn_Left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Btn_Down"
+        android:layout_alignParentLeft="true"
+        android:text="@string/Control_Left" />
+    
+	<EditText 
+	    android:id="@+id/GetInput"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:visibility="invisible"
+	    android:digits="1234567890abcdefghijklnmopqrsluvwxzyABCDEFGHIJKLNMOPQRESUVWXYZ"
+	    android:layout_below="@id/Btn_Down"/>
+	
+	<Button
+	    android:id="@+id/Btn_Disconnect"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/GetInput"
+	    android:text="@string/Disconnection"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="25dip"   />
+
+	<Button
+	    android:id="@+id/Btn_Del"
+	    android:visibility="invisible"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/Btn_Down"
+	    android:layout_alignBottom="@+id/Btn_Down"
+	    android:layout_alignRight="@+id/GetInput"
+	    android:text="@string/Del" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XBMCControl</string>
+    <string name="action_settings">Settings</string>
+    <string name="ConnectionFailed">连接服务端失败，请确定服务端已开启，并赋予网络权限！</string>
+    <string name="Control_Left">方向键左</string>
+    <string name="Control_Right">方向键右</string>
+    <string name="Control_Up">方向键上</string>
+    <string name="Control_Down">方向键下</string>
+    <string name="Control_Enter">回车</string>
+    <string name="Control_ESC">ESC键</string>
+    <string name="Control_Keyboard_Open">切换键盘</string>
+    <string name="ConnectionServer">点我连接服务端</string>
+    <string name="Connecting">连接服务端中，请稍后</string>
+    <string name="Disconnection">断开连接</string>
+    <string name="Del">删除</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="IP_Empty">IP地址不能为空</string>
+    <string name="IP_Error">IP地址格式错误</string>
+    <string name="InputType">请输入英文或数字，暂时不支持中文输入</string>
+    <string name="SendFail">发送数据失败!可能是服务端已关闭！</string>
+    
+    <!-- IP校验规则 -->
+    <string name="IPReg">"\\b((?!\\d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0-5])\\.((?!\\d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0
+        -5])\\.((?!\\d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0-5])\\.((?!\\d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0-5])\\b"</string>
+        
+    
+    <string name="Title">	欢迎使用XBMC控制器\n\n请在下方输入服务端IP:)</string>
+    <string name="ToastforIP">请在此输入IP</string>
+
+</resources>
